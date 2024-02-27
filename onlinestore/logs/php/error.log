@@ -1,0 +1,6 @@
+[25-Jan-2024 21:07:34 UTC] PHP Warning:  require_once(C:\Users\ndack\Local Sites\onlinestore\app\public/wp-load.php): Failed to open stream: No such file or directory in C:\Users\ndack\Local Sites\onlinestore\app\public\wp-blog-header.php on line 13
+[25-Jan-2024 21:07:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\Users\ndack\Local Sites\onlinestore\app\public/wp-load.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in C:\Users\ndack\Local Sites\onlinestore\app\public\wp-blog-header.php:13
+Stack trace:
+#0 C:\Users\ndack\Local Sites\onlinestore\app\public\index.php(17): require()
+#1 {main}
+  thrown in C:\Users\ndack\Local Sites\onlinestore\app\public\wp-blog-header.php on line 13
